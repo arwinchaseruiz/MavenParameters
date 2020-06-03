@@ -1,0 +1,186 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-03T01:56:01.531Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PracticeLang.stepDefinitions.loginPageStepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "User will send an email using Google Chrome",
+        "description": "",
+        "id": "user-should-be-able-to-send-email-in-yahoo-mail-using-google-chrome;user-will-send-an-email-using-google-chrome;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1850000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PracticeLang.stepDefinitions.composeEmailStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11572000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to Yahoo Mail",
+            "match": {
+              "location": "PracticeLang.stepDefinitions.loginPageStepDefinition.user_is_on_Gmail_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 133000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User tries to login",
+            "match": {
+              "location": "PracticeLang.stepDefinitions.loginPageStepDefinition.user_tries_to_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1492000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User inputs username arwinchaseruiz@yahoo.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "arwinchaseruiz@yahoo.com",
+                  "offset": 21
+                }
+              ],
+              "location": "PracticeLang.stepDefinitions.loginPageStepDefinition.user_inputs_username(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4259000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User inputs password Darmynbakla71",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Darmynbakla71",
+                  "offset": 21
+                }
+              ],
+              "location": "PracticeLang.stepDefinitions.loginPageStepDefinition.user_inputs_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2809000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User will be redirected to Yahoo Mail Home Page",
+            "match": {
+              "location": "PracticeLang.stepDefinitions.composeEmailStepDefinition.user_is_on_ymail_homepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 259000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User clicks on Compose",
+            "match": {
+              "location": "PracticeLang.stepDefinitions.composeEmailStepDefinition.user_clicks_on_Compose()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 663000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User inputs To field",
+            "match": {
+              "location": "PracticeLang.stepDefinitions.composeEmailStepDefinition.user_inputs_To_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 593000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User inputs Subject Field",
+            "match": {
+              "location": "PracticeLang.stepDefinitions.composeEmailStepDefinition.user_inputs_Subject_Field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 274000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User inputs Message",
+            "match": {
+              "location": "PracticeLang.stepDefinitions.composeEmailStepDefinition.user_inputs_Message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 393000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User clicks send",
+            "match": {
+              "location": "PracticeLang.stepDefinitions.composeEmailStepDefinition.user_clicks_send()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Chrome"
+          },
+          {
+            "name": "@Chrome"
+          }
+        ]
+      }
+    ],
+    "name": "User should be able to send email in Yahoo Mail using Google Chrome",
+    "description": "",
+    "id": "user-should-be-able-to-send-email-in-yahoo-mail-using-google-chrome",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/SendEmailYMail.feature",
+    "tags": []
+  }
+]
