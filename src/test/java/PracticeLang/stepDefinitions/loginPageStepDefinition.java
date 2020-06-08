@@ -23,6 +23,7 @@ public class loginPageStepDefinition {
 	public void setUp()
 	{
 		browser = System.getProperty("browser").toString();
+		System.out.println("Gotta git git");
 	}
 		
 	@Given("^User navigates to Yahoo Mail$")
