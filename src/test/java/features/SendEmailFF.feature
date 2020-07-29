@@ -26,4 +26,4 @@ Then User clicks send
 
 Examples:
 |browser|username                |password|
-|firefox|arwinchaseruiz@yahoo.com|Darmynbakla71|
+|firefox|arwinchaseruiz@yahoo.com|test|
