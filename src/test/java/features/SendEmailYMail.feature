@@ -26,4 +26,4 @@ Then User clicks send
 @Chrome
 Examples:
 |username                |password|
-|arwinchaseruiz@yahoo.com|Darmynbakla71|
+|arwinchaseruiz@yahoo.com|test|
